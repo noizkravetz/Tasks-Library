@@ -63,7 +63,7 @@ M+K+N+N*N+M+N               <- matrix operations (5 additions and 1 multiplicati
 - Operations are separated from matrix definition with exactly one new line. <br>
 - Operations may contain arbitrary number of operators and operands. <br>
 - There are only three operators: `+`, `-` and `*`. <br>
-- Operators have the following priority: multiplication, addition and subtraction. <br>
+- Operators have the following priority: multiplication, addition and subtraction. <br> // addition has higher priority than subtraction, or they are the same?
 - Operations are evaluated from left to right. <br>
 You can read `A+B*C+D*E-F` as `((A+(B*C))+(D*E))-F` <br>
 - Output of the program is the result of defined operations. <br>
